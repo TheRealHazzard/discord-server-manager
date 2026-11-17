@@ -1,0 +1,15 @@
+{
+  "name": "discord-server-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bot for tidying up and moderating a Discord server",
+  "scripts": {
+    "deploy-commands": "node src/deploy-commands.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
